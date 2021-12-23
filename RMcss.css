@@ -1,0 +1,77 @@
+
+/*********************************************************/
+/* CSS da PAGINA INICIAL*/
+.imagem{
+    width: 50%;
+}
+
+div.menu{
+    width: 100%;
+    background-color: rgb(247, 241, 241);
+}
+ul.menu{
+    background-color: transparent;
+    list-style-type: none;
+    font-size: 200%;
+    display: inline-block;
+    padding: 3px 10px 3px;
+    text-decoration: none;
+    border-right: 10px solid transparent;
+}
+
+.logoprincipal{
+    margin: rgb(173, 120, 120);
+    width: 900;
+    height: 450;
+}
+
+div.textoInicial{
+    width: 1000px;
+    font-size: 30px;
+}
+
+/*********************************************************/
+/*CSS pagina PLANTEL MASCULINO*/
+.table{
+    border: 5 black solid;
+    border-collapse: collapse;
+}
+
+div.fotoJogador{
+    display: inline-block;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+img.fotoJogador{
+    width: 245;
+    height: 290;
+}
+
+div.fotoJogador1{
+    
+    
+}
+
+div.fotoJogador2{
+    
+    
+}
+
+/*********************************************************/
+/*CSS pagina MUSEU VIRTUAL*/
+
+img 
+{
+width: 500px;
+height: 500px;
+}
+div.trofeu
+{
+    width: 540px;
+    height: 800px;
+    display: inline-block;
+    padding: 3px 10px 3px;
+    text-decoration: none;
+    border-right: 1px solid red;
+}

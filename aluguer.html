@@ -21,121 +21,124 @@
             </div>
         </center>
 
-        <h1>
+        <h1 style="background-color: whitesmoke;">
             <center>Aluguer de Espaço</center>
         </h1>
 
-        <div>
-            <form>
-                <form>
-                    <!--A tag fieldset, como o nome diz cria uma linha à volta de um campo para mostrar ao utilizador-->
-                    <!--A tag legend funciona como legenda desse mesmo campo-->
-                    <fieldset><legend><h3> Dados de Reserva</h3></legend>
+        
+        <div class="formForm">
+            <center>
+                <form class="formAluguer">
+                
+                    <form class="form">
+                        <!--A tag fieldset, como o nome diz cria uma linha à volta de um campo para mostrar ao utilizador-->
+                        <!--A tag legend funciona como legenda desse mesmo campo-->
+                        <fieldset><legend><h3> Dados de Reserva</h3></legend>
 
-                    <p>Modalidade</p>
-                    <!-- Listbox para seleção de modalidade desportiva-->
-                    <select>
-                        <option value="Futebol 11">Futebol 11</option>
-                        <option value="Futsal">Futsal</option>
-                        <option value="Basquetebol">Basquetebol</option>
-                        <option value="Volei">Volei</option>
-                    </select>
+                        <p>Modalidade</p>
+                        <!-- Listbox para seleção de modalidade desportiva-->
+                        <select>
+                            <option value="Futebol 11">Futebol 11</option>
+                            <option value="Futsal">Futsal</option>
+                            <option value="Basquetebol">Basquetebol</option>
+                            <option value="Volei">Volei</option>
+                        </select>
 
-                    <p>Data</p>
-                    <p>
-                        <input type="date">
-                    </p>
-
-                    <p>Hora</p>
-                    <p>
-                        <input type="time">
-                    </p>
-                    <p>
-                        <form>
-                            Única<input type="radio" value="Unica">
-                            Semanal<input type="radio" value="Semanal">
-                            Mensal<input type="radio" value="Mensal">
-                        </form>
-                    </p>
-
-                    <p>Observações</p>
-
-                    <p>
-                        <textarea style="width: 500px; height: 100px;"></textarea>
-                    </p>
-
-                    </fieldset>
-                    
-                </form>
-
-                <form>
-                    <fieldset><legend><h3>Responsável de Reserva</h3></legend>
-                        <p>
-                            Nome
-                        </p>
-                        <p>
-                            <input type="text">
-                        </p>
-
-                        <p>
-                            Email
-                        </p>
-                        <p>
-                            <input type="email">
-                        </p>
-
-                        <p>
-                            Telefone
-                        </p>
-                        <p>
-                            <input type="tel">
-                        </p>
-
-                        <p>
-                            Data de Nascimento
-                        </p>
+                        <p>Data</p>
                         <p>
                             <input type="date">
                         </p>
-                    </fieldset>
 
+                        <p>Hora</p>
+                        <p>
+                            <input type="time">
+                        </p>
+                        <p>
+                                Única<input type="radio" value="Unica">
+                                Semanal<input type="radio" value="Semanal">
+                                Mensal<input type="radio" value="Mensal">
+                        </p>
+
+                        <p>Observações</p>
+
+                        <p>
+                            <textarea style="width: 500px; height: 100px;"></textarea>
+                        </p>
+
+                        </fieldset>
+                        
+                    </form>
+
+                    <form class="form">
+                        <fieldset><legend><h3>Responsável de Reserva</h3></legend>
+                            <p>
+                                Nome
+                            </p>
+                            <p>
+                                <input type="text">
+                            </p>
+
+                            <p>
+                                Email
+                            </p>
+                            <p>
+                                <input type="email">
+                            </p>
+
+                            <p>
+                                Telefone
+                            </p>
+                            <p>
+                                <input type="tel">
+                            </p>
+
+                            <p>
+                                Data de Nascimento
+                            </p>
+                            <p>
+                                <input type="date">
+                            </p>
+                        </fieldset>
+
+                    </form>
+
+                    <form>
+                        <fieldset><legend><h3>Dados de Faturação</h3> </legend>
+
+                            <p>
+                                Entidade/Nome
+                            </p>
+                            <p>
+                                <input type="text">
+                            </p>
+                            <p>
+                                Norada de Faturação
+                            </p>
+                            <p>
+                                <input type="text">
+                            </p>
+                            <p>
+                                Contribuinte
+                            </p>
+                            <p>
+                                <input type="text">
+                            </p>
+                            <p>
+                                Email
+                            </p>
+                            <p>
+                                <input type="email">
+                            </p>
+
+                        </fieldset>
+                    </form>
                 </form>
-
-                <form>
-                    <fieldset><legend><h3>Dados de Faturação</h3> </legend>
-
-                        <p>
-                            Entidade/Nome
-                        </p>
-                        <p>
-                            <input type="text">
-                        </p>
-                        <p>
-                            Norada de Faturação
-                        </p>
-                        <p>
-                            <input type="text">
-                        </p>
-                        <p>
-                            Contribuinte
-                        </p>
-                        <p>
-                            <input type="text">
-                        </p>
-                        <p>
-                            Email
-                        </p>
-                        <p>
-                            <input type="email">
-                        </p>
-
-                    </fieldset>
-                </form>
-            </form>
+                <p>
+                    <input type="submit" style="width: 60px; height: 30px;">
+                </p>
+            </center>
             <!-- Para enviar os dados para a base de dados, mais tarde adicionar o método POST-->
-            <p>
-                <input type="submit" style="width: 60px; height: 30px;">
-            </p>
+            
         </div>
 
 

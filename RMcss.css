@@ -14,9 +14,14 @@ ul.menu{
     list-style-type: none;
     font-size: 200%;
     display: inline-block;
-    padding: 3px 10px 3px;
     text-decoration: none;
     border-right: 10px solid transparent;
+    background-color: #3498DB;
+    color: white;
+    padding: 3px 10px 3px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
 }
 
 .logoprincipal{
@@ -30,17 +35,47 @@ div.textoInicial{
     font-size: 30px;
 }
 
+a{
+    text-decoration: none;
+}
+
+/*********************************************************/
+/*CSS do menu dos users*/
+.dropdown
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown li
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display: block;}
+
 /*********************************************************/
 /*CSS pagina PLANTEL MASCULINO*/
 .table{
+    width: 100%;
     border: 5 black solid;
     border-collapse: collapse;
 }
 
 div.fotoJogador{
+    width: 30%;
     display: inline-block;
     border-top: 50px solid transparent;
     border-right: 50px solid transparent;
+    background-color: whitesmoke;
 }
 
 img.fotoJogador{
@@ -48,14 +83,66 @@ img.fotoJogador{
     height: 290;
 }
 
-div.fotoJogador1{
-    
+.tab{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.modal_container{
+    background-color: rgb(0, 0, 0, 0.3);
+    display: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
     
 }
 
-div.fotoJogador2{
-    
-    
+.modal_container.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 50px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+}
+
+button.details{
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 25px;
 }
 
 /*********************************************************/
@@ -68,6 +155,7 @@ height: 500px;
 }
 div.trofeu
 {
+    
     width: 540px;
     height: 800px;
     display: inline-block;
@@ -75,3 +163,37 @@ div.trofeu
     text-decoration: none;
     border-right: 1px solid red;
 }
+
+div table
+{
+    background-color: whitesmoke;
+}
+
+body
+{
+    background-color: #edeef6;
+    background-image: url('Images/logo/santiago_bernabeu2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.datas{
+    column-count: 2;
+}
+
+/*******************************************/
+/*CSS Pagina Aluguer*/
+/*.formAluguer{
+    width: 50%;
+    background-color: whitesmoke;
+}*/
+
+form{
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+/*.formForm{
+    background-color: whitesmoke;
+}*/
